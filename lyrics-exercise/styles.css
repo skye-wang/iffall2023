@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:ital,wght@0,400;0,600;1,600&family=Roboto:ital,wght@0,300;0,400;0,700;1,100;1,400&display=swap');
+
+.sidenav {
+    background-color: rgba(171, 142, 169, 0.884);
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding: 20px 8px 6px 2rem;
+    background-image: url("https://cdn.oneesports.gg/cdn-data/2021/11/LeagueofLegends_ArcaneEnemySoundtrackSongImagineDragonsJID-min.jpg");
+    background-size: 200px; 
+    background-repeat: no-repeat;
+    background-position-y: 10%;
+    background-position-x: 20%;
+  }
+
+
+.main {
+    margin-left: 300px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 10px;
+}
+
+
+h1 {
+    padding-top: 10rem;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 1px 1px 2px rgb(121, 30, 117);
+    margin-block-end:1px;
+    color: rgb(160, 211, 243);
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style:italic;
+    margin-block-start:0px;
+    margin-block-end:7px;
+    color: rgb(71, 9, 68);
+}
+
+h3 {
+    padding-top: 20px;
+    font-family: 'Anton', sans-serif;
+    line-height: 25%;
+    color: rgb(160, 211, 243, 80%);
+    text-shadow: 1px 1px 2px rgb(121, 30, 117);
+    transition: text-shadow 0.5s;
+}
+
+h3:hover {
+    text-shadow: 2px 2px 4px rgb(121, 30, 117);
+}
+
+p{
+    transition: text-shadow 0.1s;
+}
+
+p:hover {
+    text-shadow: 1px 1px 2px rgb(113, 131, 89);
+}
+body {
+    background-color: rgb(34, 28, 40);
+    padding-bottom: 4rem;
+    padding-left: 1rem;
+    /* background-image: url(https://m.media-amazon.com/images/M/MV5BYmRiNzY5MjEtZWI1OC00M2Y4LWIwOWMtYzliMTYwOGE3MjkyXkEyXkFqcGdeQXVyODc0OTEyNDU@._V1_.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode:hue;
+    background-position: 80%;
+    background-size: 80%; */
+    margin-left: 0px;
+}
+
+.info {
+    padding-top: 5px;
+    padding-bottom:10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: rgb(34, 28, 40);
+}
+
+.lyrics {
+    padding-left:4rem;
+    padding-top:2rem;
+}
+
+.a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 0px 10px 10px 0px;
+}
+
+.chorus{
+    color:rgb(119, 162, 189);
+}
+
+.verse{
+    color:rgb(62, 163, 156);
+}
+
+.prechorus{
+    color:rgb(82, 151, 127);
+}
+
+.outro {
+    color:rgb(167, 135, 197);
+}
+.type{
+    font-weight: 700;
+}
+
+.music{
+    padding-top:4px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    z-index: 1;
+    aspect-ratio: 16 / 9;
+    box-shadow: 0 0 6px rgba(49, 33, 51, 0.5);
+}
+
+
+.link {
+    padding-top:4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    font-size:14px;
+    color: rgb(160, 211, 243);
+    padding-bottom: 3rem;
+    transition: color 0.2s;
+}
+
+a{
+    color: rgba(171, 142, 169, 0.884);
+    background-color: transparent;
+    text-decoration:underline;
+}
+
+.a:visited{
+    color: pink;
+    background-color: transparent;
+    text-decoration:underline;
+}
+
+.infor {
+    line-height:50%;
+}
+
+.aboutText {
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    padding-right: 2rem;
+    text-align: justified;
+    color: rgb(26, 5, 25);
+}
+
+hr {
+    border: 1px dotted rgb(160, 211, 243);
+    margin-bottom: 15px;
+}
+
+.img1 {
+    border-radius: 10px;
+    opacity:50%;
+    width: 300px;
+    height: 400px;
+    object-fit:cover;
+    margin: 40px 40px 5px 100px;
+}
