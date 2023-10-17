@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+html {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+header {
+    margin: 0;
+    text-align: center;
+    background-image: url("img/cutecat5.jpeg");
+    background-position: top - 200px;
+    background-size: cover;
+    color: rgb(14, 17, 16);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-position: center top;
+	min-height: 2399px;
+}
+
+.column_container {
+    width: 960px;
+    margin: auto;
+    padding-top: 39px;
+    padding-bottom: 40px;
+}
+
+header .column_container {
+    padding-top: 152px;
+    padding-bottom: 188px;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 1.1;
+}
+
+h3 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 33px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    padding: 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 18px;
+}
+
+
+img {
+    overflow: clip;
+    overflow-clip-margin: content-box;
+}
+
+.img_wrap {
+    float:right;
+    margin: 0 0 30px 40px;
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul div {
+    width: 450px;
+    padding-bottom: 20px;
+}
+
+.s2 p, h4 {
+    padding-left: 212px;
+}
+
+li {
+    width: 50%;
+}
+
+
+.grid img {
+    width:200px;
+    height:150px;
+    object-fit: cover;
+    display: inline;
+    float: left;
+}
+
+.s3 .column_container {
+    padding-top: 27px;
+    padding-bottom: 40px;
+}
+
+.s3 p {
+    font-size: 26px;
+    line-height: 35px;
+    text-align: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+footer {
+    padding-top: 50px;
+    background-color:rgb(246, 255, 252);
+}
+
+.s1 {
+    background-color:rgb(183, 237, 219);
+    color:rgb(67, 93, 84);
+    
+}
+
+.s2 {
+    background-color:rgb(112, 112, 194);
+    color:rgb(210, 212, 239);
+}
+
+.s3 {
+    background-color: rgb(217, 193, 239);
+    color:rgb(82, 46, 116);
+}
+
+/* .float {
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    float: right;
+    margin: 0 0 32px 40px;
+}
+
+.grid {
+    padding: 0;
+    list-style-type: none
+}
+
+.grid img {
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+    float: left;
+    object-position: center;
+    display: inline;
+    margin-right: 12px;
+}
+.grid{
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.s2 p{
+    font-size: 18px;
+    margin-block-start: -20px;
+    margin-inline: 40px;
+    padding-inline-start: 173px;
+    line-height: 25.2px;
+    letter-spacing: -0.2px;
+    padding-bottom: 25px;
+}
+
+ul div{
+    width: 425px;
+}
+
+li{
+    display: block;
+    float: left;
+    width: 50%;
+    padding-bottom: 22px;
+}
+
+ul{
+    padding: 0;
+}
+
+.s3{
+    padding-bottom: 41px;
+}
+
+*/
