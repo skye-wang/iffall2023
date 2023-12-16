@@ -1,0 +1,852 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+h1.large{
+    font-family: 'Paytone One', sans-serif;
+    font-size: 72px;
+    margin: 4rem 0 4rem;
+    padding: 0 3%;
+}
+
+h1.medium{
+  font-size: 46px;
+  font-family: 'Paytone One', sans-serif;
+  margin: 3rem 0 1rem;
+  padding: 0 3%;
+}
+
+h1.small{
+  font-size: 24px;
+  font-family: 'Paytone One', sans-serif;
+  margin: 2rem 0 1rem;
+  color:#F66EAF;
+  padding: 0 3%;
+}
+
+h2{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    padding: 0 3%;
+}
+
+h3{
+    font-family: 'Paytone One', sans-serif;
+    font-size: 16px;
+}
+
+p{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.mouth_section h4{
+  margin-bottom: 1rem;
+}
+
+.mouth_section p{
+  margin-top: 1rem;
+}
+
+body#home_page {
+  background-image: url("img/kirby-vertical-splash.jpeg");
+  min-height: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home_bg{
+  display:flex;
+  align-self: left;
+  align-items:center;
+  display: block;
+  width:36%;
+  margin-left: 7%;
+}
+img#home_logo{
+  margin-top: 8vmax;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#btn_start{
+  text-align:center;
+  margin-top: 8vmax;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 4.5vmax;
+  width: 12.5vmax;
+  border-radius: 6.25vmax;
+  text-decoration: none;
+  background-color: rgba(255, 130, 228, 1);
+  color: rgba(255, 255, 255, 1);
+  border: 2px solid rgba(130, 24, 107, 1);
+  font-family: 'Paytone One', sans-serif;
+  font-size: 3vmax; 
+  padding: 1.5vmax 0 2vmax 0;
+}
+
+/* Nav Bar */
+
+.nav_bar{
+    margin-top: 3%;
+    display:flex;
+    flex-direction: column;
+}
+
+.container{
+    height:7.5%;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 61vmax;
+    margin: 0 auto;
+    z-index: 3;
+}
+
+.mobile_container{
+    height:7.5%;
+    width:100vmin;
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+    align-items: center;
+    display: none;
+    gap: 2%;
+}
+
+.block{
+  display:flex;
+  width: 4vmax;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav_words{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 52rem;
+  margin: 0 auto;
+}
+
+.nav_button{
+    width: 3.5vmax;
+    height: 3.5vmax;
+    border-radius: 3vmax;
+}
+
+.nav_phone{
+  margin: 1%;
+  padding: 5% 2%;
+  align-items: center;
+  text-decoration: none;
+  font-family: 'Paytone One', sans-serif;
+  font-size: 12px;
+  display: none;
+  border-radius: 12px;
+}
+
+.bottom_button{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 5% 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color:#F5F5F5;
+
+}
+
+.bottom_button_div{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+}
+
+#btn_gray{
+  box-sizing: border-box;
+  background-color: #bebebe;
+  border: 3px solid #F66EAF;
+}
+
+#phone_btn{
+  background-color: #F66EAF;
+  color:#F5F5F5;
+}
+
+
+#btn_pink{
+    background-color: #F66EAF;
+}
+
+#color_gray{
+    color:#b0b0b0;
+}
+
+#color_pink{
+    color:#F66EAF;
+}
+
+#nav_line{
+    margin-top:-1.9vmax;
+    z-index: -1;
+    height: 3px;
+    border:none;
+    background: rgba(246, 110, 175, 1);
+    color: rgba(246, 110, 175, 1);
+}
+
+.kirby_page{
+  max-width:61vmax;
+  margin: 0 auto;
+}
+
+.kirby_page h2{
+  padding-bottom: 2vmax;
+}
+
+.awards_page{
+  max-width:61vmax;
+  margin:0 auto;
+  margin-bottom: 5rem;
+}
+
+.dev_page{
+  max-width:61vmax;
+  margin:0 auto;
+  align-items: center;
+}
+
+.dev_bg{
+  width: 100vw;
+  position: relative;
+  left: calc(-50vw + 50%);
+  background-image: url("img/kirby-forms.jpeg");
+  background-blend-mode: lighten;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#mobile_dev_title{
+display: none;
+}
+
+body{
+  background-color:#F5F5F5;
+  margin:0;
+}
+
+body#kirby_body {
+  background-color: rgba(245, 245, 245, 1);
+  font-family: 'Lato', sans-serif;
+  margin:0;
+}
+
+.kirby_search{
+  width: 20vmax;
+  margin: -6vmax 0 0 15.5vmax;
+  position:absolute;
+}
+
+.warpstar{
+  width: 30vmax;
+  margin: -12vmax 0 0 13vmax;
+  position:absolute;
+}
+
+.mouthful{
+  margin-top: 250px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Ubuntu Mono', monospace;
+  background-color: #F5F5F5;
+  width: 100vw;
+  position: relative;
+  left: calc(-50vw + 50%);
+}
+
+.mouth_body_box{
+  display:inline-block;;
+  margin: 0 18vmax 0 18vmax;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.mouth_text_box{
+  display:flex;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-right: 30%;
+  padding-top: 3%;
+}
+
+.kirby-inhale-car{
+  justify-self:right;
+  width: 33vmax;
+  margin: -18vmax 5vmax 0 0;
+  position:absolute;
+}
+
+.mouth_section{
+  display:flex;
+  flex-direction:row;
+  margin-top : 5%;
+  align-items: center;
+}
+
+.mouth{
+  display:flex;
+  flex-direction:column;
+}
+
+.mouths2{
+  display:none;
+}
+
+.mouths2 .mouth_section{
+  display:flex;
+  justify-items: center;
+}
+
+.mouths2 .mouth_text{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.mouths1 img{
+  height:15vmax;
+  width:auto;
+}
+
+.mouths2 img{
+  height:15vmax;
+  width:auto;
+}
+
+.mouth_section.left{
+  padding-left: 10%;
+}
+
+.mouth_section.middle{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.left .mouth_text{
+  padding-left: 10%;
+  padding-right: 12.5%;
+}
+
+.middle .mouth_text{
+  padding-left: 12.5%;
+  padding-right: 10%;
+}
+
+.mouth_section.middle img{
+  padding-right: 10%;
+}
+
+.arch_img{
+  margin-right:-5%;
+}
+
+.and_more{
+  color:#F66EAF;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 5%;
+}
+
+.awards_body{
+  width: 65vw;
+  position: relative;
+  left: calc(-32.5vw + 50%);
+  margin-top: 3vmax;
+}
+
+.awards_body_box{
+  background-color: white;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.shelf{
+  width:100%;
+  height:auto;
+  z-index: 10;
+}
+
+.shelf_row{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.award{
+  height:7vmax;
+  width: auto;
+  padding: 0 2vmax;
+  z-index: 20;
+  pointer-events: visible;
+  transition: .3s;
+}
+
+.award:hover{
+  transform: scale(1.1);
+  transition: .3s;
+}
+
+.row{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 15;
+  margin-bottom: -6vmax;
+}
+
+.navgtr{
+  height:5vmax;
+  margin-top: 1vmax;
+  margin-bottom: 1vmax;
+}
+
+.game_award{
+  height: 6.5vmax;
+  margin-bottom: 1vmax;
+  margin-top: -0.5vmax;
+}
+
+.bafta{
+  margin-bottom: -2vmax;
+}
+
+.nyvga {
+  height: 9.5vmax;
+  margin-top: -2vmax;
+  margin-bottom: -0.5vmax;
+
+}
+
+.rec_text{
+  padding: 0 10% 7% 10%;
+}
+
+.awards_body_box .text_box{
+  padding-bottom: 3vmax;
+  padding-left: 10%;
+}
+
+.awards_body_box .text_box p{
+  padding-right: 30%;
+  padding-bottom: 5%;
+}
+
+.awards_page h2{
+  padding-right: 30%;
+}
+
+.rating{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.dev_body{
+  width:65vmax;
+  left: calc(-32.5vw + 50%);
+  position: relative;
+  display:flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 50px;
+  margin-top: 3vmax;
+}
+
+.dev_text{
+  padding: 7% 10% 7% 10%;
+}
+
+.timeline_pt{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dot {
+  min-height: 2vmax;
+  min-width: 2vmax;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  z-index: 20;
+  margin-right: -2.35%;
+}
+
+.time_text{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-left: 4px solid #F66EAF;
+  padding-left: 55px;
+  z-index: 10;
+}
+
+.time_text p{
+  width: 35vmax;
+  margin-top:32px;
+}
+
+.date{
+  width: 5vmax;
+  padding-right: 2vmax;
+}
+
+.t1 .date, .dot{
+  color:#f66eb0a0;
+}
+
+.t3 .date, .dot{
+  color:#f66eb0b0;
+}
+
+.t4 .date, .dot{
+  color:#f66eb0c0;
+}
+
+.t5 .date, .dot{
+  color:#f66eb0d0;
+}
+
+.t6 .date, .dot{
+  color:#f66eb0e0;
+}
+
+
+/* Carousel */
+
+
+.carousel_section{
+  width: 100vw;
+  position: relative;
+  left: calc(-50vw + 50%);
+  background-image: url("img/kirby-forms.jpeg");
+  background-blend-mode: lighten;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.img_overlay{
+  padding: 175px 0 100px 0;
+  background-color: rgba(246, 111, 176, 0.25);
+}
+
+.body_box{
+  margin: 0 18vmax 0 18vmax;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.text_box{
+  display:flex;
+  flex-direction: column;
+  padding-left: 29%;
+  padding-right:10%;
+}
+
+.text_box p{
+  padding-right: 10%;
+  margin-bottom:0;
+}
+
+.caro_container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel_view{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px;
+  padding: 30px 0;
+  transition: all 0.25s ease-in;
+}
+
+.item{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  scroll-snap-align: center;
+  min-width: 200px;
+}
+
+.i1{
+  display:inline-block;
+}
+
+.i2{
+  display:none;
+}
+
+.i1 .item_list{
+  max-width: 950px;
+  width: 50vw;
+  padding: 50px 1.25vmax;
+  display: flex;
+  gap: 38px;
+  scroll-behavior: smooth;
+  transition: all 0.25s ease-in;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.i2 .item_list{
+  max-width: 950px;
+  width: 50vw;
+  padding: 50px 1.25vmax;
+  display: flex;
+  gap: 100px;
+  scroll-behavior: smooth;
+  transition: all 0.25s ease-in;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.item_list::-webkit-scrollbar {
+  display:none;
+}
+
+button{
+  border: none;
+  cursor: pointer;
+  color: white;
+  background: none;
+  transition: all .3s ease-in-out;
+}
+
+.next_btn{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color:#f66eb090;
+
+}
+
+.prev_btn{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color:#f66eb090;
+
+}
+
+.item img{
+  height:200px;
+  width:auto;
+}
+
+#item_sword img{
+  margin-top:80px;
+  height:120px;
+  width:auto;
+}
+
+#item_sleep img{
+  margin-top:45px;
+  height:160px;
+  width:auto;
+}
+
+#item_ice img{
+  margin-top:45px;
+  height:160px;
+  width:auto;
+}
+
+#item_ranger img{
+  margin-top:45px;
+  height:150px;
+  width:auto;
+}
+
+#item_cutter img{
+  margin-top:45px;
+  height:160px;
+  width:auto;
+}
+@media (max-width: 1100px){
+  .body_box{
+    margin: 0 12vmax 0 12vmax;
+  }
+  .mouth_body_box{
+    margin: 0 12vmax 0 12vmax;
+  }
+
+  .kirby_search{
+    width: 22vmax;
+    margin: -6vmax 0 0 5vmax;
+  }
+}
+
+@media (max-width: 900px){
+  .item{
+    padding: 0 100px;
+  }
+
+  .item img{
+    height:22vmax;
+    width:auto;
+  }
+  
+  #item_sword img{
+    margin-top:8.8vmax;
+    height:13.2vmax;
+    width:auto;
+  }
+  
+  #item_sleep img{
+    margin-top:4.07vmax;
+    height:17.6vmax;
+    width:auto;
+  }
+  
+  #item_ice img{
+    margin-top:4.07vmax;
+    height:17.6vmax;
+    width:auto;
+  }
+  
+  #item_ranger img{
+    margin-top:4.07vmax;
+    height:16.5vmax;
+    width:auto;
+  }
+  
+  #item_cutter img{
+    margin-top:4.07vmax;
+    height:17.6vmax;
+    width:auto;
+  }
+}
+
+@media (max-width: 850px){
+  .awards_body_box .text_box p {
+    padding-right: 5%;
+    padding-bottom: 5%;
+  }
+}
+
+@media (max-width:750px){
+  .i1{
+    display:none;
+  }
+
+  .i2{
+    display:inline-block;
+  }
+
+  .body_box{
+    margin: 0 2vmax;
+  }
+
+  .kirby_search{
+    width: 30vmax;
+    margin: -20vmax 0;
+  }
+
+  .mouth_body_box{
+    margin: 0 2vmax;
+    border-radius: 2vmax;
+  }
+
+  .text_box{
+    padding-left:15%;
+    padding-top: 4%;
+  }
+
+  .kirby-inhale-car{
+    margin: -27.5vmax 7vmax 0 0;
+    height:37vmax;
+    width:auto;
+  }
+
+  #mobile_dev_title{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #reg_dev_title{
+    display:none;
+  }
+
+  .dev_body{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:550px){
+  .container{
+    display:none;
+  }
+
+  .nav_phone{
+    display:flex;
+  }
+
+  .mobile_container{
+    display:flex;
+    z-index: 10;
+  }
+
+  #nav_line{
+    margin-top:-8%;
+  }
+
+  .dev_body{
+    margin-left: -10%;
+  }
+}
+
+@media screen and (max-width:450px){
+  .mouths1{
+    display:none;
+  }
+
+  .mouths2{
+    display:inline-block;
+  }
+
+  .mouth_section{
+    flex-direction:column;
+  }
+
+  .kirby_search{
+    width: 24vmax;
+    margin: -16vmax 0 0 8vmax;
+  }
+
+  .item {
+    min-width: 25px;
+  }
+
+  .item img{
+    height:15vmax;
+    width:auto;
+  }
+}
